@@ -18,7 +18,12 @@ $OfficeVersion = ($Product.Replace("Excel.Application.","")+".0")
 
 ##
 
-$ConfigLocation = "C:\Users\$($env:UserName)\AppData\Local\Microsoft\Outlook\RoamCache\"
+If ($env:COMPUTERNAME -eq "SERVER-RDS-01"){
+    $ConfigLocation = "D:\Users\$($env:UserName)\AppData\Local\Microsoft\Outlook\RoamCache\"
+}else{
+    $ConfigLocation = "C:\Users\$($env:UserName)\AppData\Local\Microsoft\Outlook\RoamCache\"
+}
+
 cd $ConfigLocation
 $ConfigName = Get-ChildItem -Filter *Stream_Weather_*
 
