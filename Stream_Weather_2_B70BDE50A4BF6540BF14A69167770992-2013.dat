@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<UserConfiguration>
+	<Info version="Outlook.15"/>
+	<Data>
+		<e k="18-DegreeType" v="9-0"/>
+		<e k="18-Disabled" v="9-0"/>
+		<e k="18-Location1" v="18-"/>
+		<e k="18-Location2" v="18-"/>
+		<e k="18-Location3" v="18-"/>
+		<e k="18-Location4" v="18-"/>
+		<e k="18-Location5" v="18-"/>
+		<e k="18-SelectedLocation" v="18-"/>
+		<e k="18-OLPrefsVersion" v="9-1"/>
+	</Data>
+</UserConfiguration>
